@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 2px;
+    margin: 0;
+}
+body{
+    background-color: rgb(226, 226, 226);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+#imglogo{
+    width: 120px;
+    height: 100px;
+    mix-blend-mode: multiply;
+}
+a:hover{
+    opacity: 0.7;
+}
+a{
+    background-color: rgb(112, 118, 202);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 20vh;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 500px;
+    font-family: 'Poppins',sans-serif;
+    color: #fff;
+    transition: 0.3s;
+    border: none;
+}
+main{
+    color: rgb(85, 95, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: url("img_meioAmbiente3.jpg") no-repeat center center;
+    background-size: cover;
+    height: 35vh;
+}
+h1,h2,h3{
+    font-family: 'Poppins',sans-serif;
+}
+h1{
+    font-size: 23px;
+}
+p{
+    color: rgb(61, 61, 72);
+    padding:10px;
+}
+.caixa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.caixa2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+    padding: 2%;
+    width: 50vh;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.pata{
+    width: 30px;
+    height: 200px;
+}
+.caixa3{
+    display: flex;
+    align-items: row;
+    justify-content: center;
+    gap: 5px;
+    flex-direction: column;
+    padding: 10px;
+    width: 180vh;
+    background-color: #fff;
+    border-radius: 10px;
+}
+#branco{
+    color: white;
+}
+.fundocaramelo{
+    background-color:#ecaf05;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    height: 250px;
+    border-radius: 10px;
+}
+.imgpata{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+.caixa4{
+    display: flex;
+    align-items: row;
+    justify-content: center;
+    gap: 5px;
+    flex-direction: column;
+    width: 500px;
+}
