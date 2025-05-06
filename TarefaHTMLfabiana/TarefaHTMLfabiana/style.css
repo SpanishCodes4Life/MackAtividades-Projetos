@@ -1,0 +1,71 @@
+body{
+    background-image: linear-gradient(white,tomato,tomato,white);
+}
+
+.item1{
+    background-color: rgba(223, 200, 208, 0.82);
+    border-radius: 20px;
+    /* DISPLAY PARA DEIXAR O TEXTO DO LADO DA IMAGEM,  EM CONJUNTO DO CONTAINER*/
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.container{
+    display: flex;
+    gap: 20px;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.containertext{
+    display: flex;
+    flex-direction: column;
+}
+/*.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+*/
+img{
+    width: 540px;
+    height: auto;
+    object-fit: cover;
+
+    border: 1px solid black;
+    border-radius: 20px;
+}
+h1{
+    font-size: x-large;
+}
+.menubar{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.botaomenu{
+    background-image: linear-gradient(rgb(230, 179, 179),rgb(248, 117, 94),rgb(246, 208, 208));
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 5vh;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 24px;
+    font-family: 'Poppins',sans-serif;
+    color: #fff;
+    transition: 0.3s;
+    border: none;
+
+    width: 10%;
+    height: 5%;
+}
+a:hover{
+    opacity: 0.7;
+} 
+a{
+    text-decoration: none;
+}
